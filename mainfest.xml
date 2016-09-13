@@ -1,0 +1,10 @@
+android {
+    signingConfigs {
+        release {
+            storeFile file("Nooh.keystore")
+            storePassword "112233"
+            keyAlias "nooh111"
+            keyPassword "112233"
+        }
+   }
+}
